@@ -13,13 +13,7 @@ This file contains the main outline for our Atlanta WDI class. Different version
 ### Terminal and Command Line
 
 * [Intro to the Command Line Interface](https://github.com/ATL-WDI-Curriculum/command-line)
-  - BASH shell basics
-    - common commands: ls, cd, mkdir, pwd, rm, rmdir, touch, cat, ps
-    - the PATH
-    - .bash_profile and .bashrc
-  - The file system
-    - relative vs. absolute paths
-    - file and directory permissions
+* File System Basics
 
 ### Package Managers
 
