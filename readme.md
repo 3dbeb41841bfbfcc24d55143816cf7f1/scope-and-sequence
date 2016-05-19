@@ -213,9 +213,13 @@ bundle install
   - [Dr. Mike Repo](https://github.com/drmikeh/ga_camping_store_angular)
   - [Dr. Mike MEAN Stack Repo](https://github.com/drmikeh/ga-camping-store)
 
+---
+
 ### Unit Testing
 
 * [Unit Testing an API](https://github.com/ATL-WDI-Curriculum/node-mocha-testing-intro)
+
+---
 
 ### Technical Interviewing
 
@@ -227,4 +231,3 @@ bundle install
   - Scheduling Algorithm
   - OOP Design
   - [JS Whiteboard Questions](https://github.com/ATL-WDI-Exercises/Javascript_whiteboard_questions)
-
