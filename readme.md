@@ -2,6 +2,59 @@
 
 This file contains the main outline for our Atlanta WDI class. Different versions of this file will be available via Git branches (for example a "cohort-3" branch or a "rails-first" branch). The master branch should contain the most recent version of our scope and sequence
 
+## Table of Contents
+  * [Table of Contents](#table-of-contents)
+  * [Intro to WDI](#intro-to-wdi)
+  * [Developer Tools](#developer-tools)
+    * [Terminal and Command Line](#terminal-and-command-line)
+    * [Package Managers](#package-managers)
+    * [Text Editors](#text-editors)
+    * [Version Control](#version-control)
+    * [SDLC](#sdlc)
+  * [Unit 1 - Front End Web Development](#unit-1---front-end-web-development)
+    * [HTML and DOM](#html-and-dom)
+    * [CSS](#css)
+    * [JavaScript](#javascript)
+    * [Project 1](#project-1)
+  * [Unit 2 - Ruby on Rails](#unit-2---ruby-on-rails)
+    * [The Ruby Language](#the-ruby-language)
+    * [Relational Databases](#relational-databases)
+    * [Sinatra](#sinatra)
+    * [RAILS](#rails)
+      * [Active Record](#active-record)
+      * [Intro to Rails](#intro-to-rails)
+      * [RESTful Routing](#restful-routing)
+      * [Rails Views](#rails-views)
+      * [The Asset Pipeline](#the-asset-pipeline)
+      * [Rails Helpers](#rails-helpers)
+      * [Rails Security](#rails-security)
+      * [Deployement](#deployement)
+      * [Rails as a RESTful API](#rails-as-a-restful-api)
+      * [Rails Diagrams](#rails-diagrams)
+    * [Project 2](#project-2)
+  * [Unit 3 - NodeJS, Express, and MongoDB (the MEN Stack)](#unit-3---nodejs-express-and-mongodb-(the-men-stack))
+    * [Intro to the MEAN Stack](#intro-to-the-mean-stack)
+    * [Intro to NodeJS](#intro-to-nodejs)
+    * [Intro to Express](#intro-to-express)
+    * [Express Routing](#express-routing)
+    * [The Express Generator](#the-express-generator)
+    * [Rendering with EJS](#rendering-with-ejs)
+    * [Mongoose](#mongoose)
+      * [Intro to Mongoose](#intro-to-mongoose)
+      * [Mongoose Associations](#mongoose-associations)
+    * [Express and Mongoose Code Along](#express-and-mongoose-code-along)
+    * [Security with Express](#security-with-express)
+    * [AJAX with jQuery and Express](#ajax-with-jquery-and-express)
+    * [Error Handling and Debugging on the MEAN Stack](#error-handling-and-debugging-on-the-mean-stack)
+    * [Web Sockets](#web-sockets)
+    * [Project 3](#project-3)
+  * [Unit 4 - Modern Client-Side Frameworks](#unit-4---modern-client-side-frameworks)
+    * [AngularJS](#angularjs)
+    * [Unit Testing](#unit-testing)
+    * [Technical Interviewing](#technical-interviewing)
+    * [Project 4](#project-4)
+
+
 ## Intro to WDI
 
 * [Big Goal and Culture](https://github.com/ATL-WDI-Curriculum/big-goal-and-culture)
@@ -123,6 +176,11 @@ This file contains the main outline for our Atlanta WDI class. Different version
   - [SQL Joins](https://github.com/ATL-WDI-Curriculum/sql-joins.git)
 * [Ruby SQL Labs](https://github.com/ATL-WDI-Curriculum/databases-and-sql/tree/master/ruby-labs)
 
+### Sinatra
+
+* [Sinatra Intro](https://github.com/ATL-WDI-Curriculum/sinatra-intro)
+
+
 ### RAILS
 
 * Setting up rbEnv and Bundler
@@ -140,46 +198,58 @@ cd your_project_directory
 bundle install
 ```
 
-* Active Record
-  - [Intro to Active Record](https://github.com/ATL-WDI-Curriculum/intro-to-active-record.git)
-  - [Active Record Intro](https://github.com/ATL-WDI-Curriculum/active-record-intro.git)
-  - [ActiveRecord Intro](https://github.com/ATL-WDI-Curriculum/activerecord-intro.git)
-  - [Active Record Associations](https://github.com/ATL-WDI-Curriculum/active-record-associations.git)
-  - [Active Record Migrations](https://github.com/ATL-WDI-Curriculum/active-record-migrations.git)
-  - [Rails Active Record Migrations](https://github.com/ATL-WDI-Curriculum/rails-active-record-migrations.git)
+#### Active Record
 
-* [Sinatra Intro](https://github.com/ATL-WDI-Curriculum/sinatra-intro)
+* [Intro to Active Record](https://github.com/ATL-WDI-Curriculum/intro-to-active-record.git)
+* [Active Record Intro](https://github.com/ATL-WDI-Curriculum/active-record-intro.git)
+* [ActiveRecord Intro](https://github.com/ATL-WDI-Curriculum/activerecord-intro.git)
+* [Active Record Associations](https://github.com/ATL-WDI-Curriculum/active-record-associations.git)
+* [Active Record Migrations](https://github.com/ATL-WDI-Curriculum/active-record-migrations.git)
+* [Rails Active Record Migrations](https://github.com/ATL-WDI-Curriculum/rails-active-record-migrations.git)
 
-* Intro to Rails
-  - [Intro to Rails](https://github.com/ATL-WDI-Curriculum/rails-mvc)
-  - [HTTP MVC Intro Rails](https://github.com/ATL-WDI-Curriculum/http-mvc-intro-rails)
+#### Intro to Rails
 
-* RESTful Routing with Rails
-  - [Rails Resources and Routing](https://github.com/ATL-WDI-Curriculum/rails-resources-and-routing)
-  - [Rails Routing](https://github.com/ATL-WDI-Curriculum/rails-routing)
+* [Intro to Rails](https://github.com/ATL-WDI-Curriculum/rails-mvc)
+* [HTTP MVC Intro Rails](https://github.com/ATL-WDI-Curriculum/http-mvc-intro-rails)
+
+#### RESTful Routing
+
+* [Rails Resources and Routing](https://github.com/ATL-WDI-Curriculum/rails-resources-and-routing)
+* [Rails Routing](https://github.com/ATL-WDI-Curriculum/rails-routing)
+
+#### Rails Views
 
 * [Rails Views](https://github.com/ga-wdi-lessons/rails-views)
 * [Rails Views and Controller](https://github.com/ATL-WDI-Curriculum/rails-views-and-controller)
 
+#### The Asset Pipeline
+
 * [Rails Asset Pipeline](https://github.com/ATL-WDI-Curriculum/rails-asset-pipeline)
 
-* Rails Helpers
-  - [Rails Helpers](https://github.com/ATL-WDI-Curriculum/rails-helpers)
-  - [Rails Helpers Updated](https://github.com/ATL-WDI-Curriculum/rails-helpers-updated)
+#### Rails Helpers
+
+* [Rails Helpers](https://github.com/ATL-WDI-Curriculum/rails-helpers)
+* [Rails Helpers Updated](https://github.com/ATL-WDI-Curriculum/rails-helpers-updated)
 
 * [Rails Soup to Nuts Code Along](https://github.com/ATL-WDI-Exercises/rails_todo_app)
 
-* Rails Security
-  - [Security, AuthN, and AuthZ](https://github.com/ATL-WDI-Curriculum/security-and-auth)
-  - Security with Devise
+#### Rails Security
+
+* [Security, AuthN, and AuthZ](https://github.com/ATL-WDI-Curriculum/security-and-auth)
+* Security with Devise
+
+#### Deployement
 
 * [Rails Deployment to Heroku](https://github.com/ATL-WDI-Curriculum/heroku-deployment)
 
-* Rails as a RESTful API
-  - [Rails as a RESTful API](https://github.com/ATL-WDI-Curriculum/rails-as-a-restful-api)
-  - [Rails with Angular and Bower](http://marcwright.github.io/marcwright-jekyll/2016/rails-angular-bower/)
+#### Rails as a RESTful API
 
-[Rails Diagrams](https://github.com/ATL-WDI-Curriculum/rails-diagrams)
+* [Rails as a RESTful API](https://github.com/ATL-WDI-Curriculum/rails-as-a-restful-api)
+* [Rails with Angular and Bower](http://marcwright.github.io/marcwright-jekyll/2016/rails-angular-bower/)
+
+#### Rails Diagrams
+
+* [Rails Diagrams](https://github.com/ATL-WDI-Curriculum/rails-diagrams)
 
 ### Project 2
 
@@ -189,53 +259,78 @@ bundle install
 
 ## Unit 3 - NodeJS, Express, and MongoDB (the MEN Stack)
 
+### Intro to the MEAN Stack
+
 * [MEAN Stack Intro](https://github.com/ATL-WDI-Curriculum/mean-stack-intro)
+
+### Intro to NodeJS
+
 * [Node Intro](https://github.com/ATL-WDI-Curriculum/node-intro)
 * NodeJS Modules with Lab
-* Intro to Express
-  - [Express](https://github.com/ATL-WDI-Curriculum/express)
-  - [Node Express Intro Lesson](https://github.com/ATL-WDI-Curriculum/node-express-intro-lesson)
+
+### Intro to Express
+* [Express](https://github.com/ATL-WDI-Curriculum/express)
+* [Node Express Intro Lesson](https://github.com/ATL-WDI-Curriculum/node-express-intro-lesson)
+
+### Express Routing
+
 * [Express Routes Lab](https://github.com/ga-wdi-exercises/compliment-express/tree/solution)
 * [RESTful Routing with Express](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-routing-lab)
-* Intro to the Express Generator
+
+### The Express Generator
+
 * [Intro to NoSQL and MongoDB](https://github.com/ATL-WDI-Curriculum/mongo-nosql-intro-lesson)
 * [MongoDB Lab](https://github.com/ATL-WDI-Exercises/mongo-pokemon)
-* Intro to Mongoose
-  - [Mongoose](https://github.com/ATL-WDI-Curriculum/mongoose)
-  - [Express Mongoose Modelling](https://github.com/ATL-WDI-Curriculum/express-mongoose-modelling)
-  - [Mongoose Intro](https://github.com/ga-wdi-lessons/mongoose-intro)
-* Mongoose Lab
-  - [Express Node Mongoose Lab](https://github.com/ATL-WDI-Exercises/express-node-mongoose-lab)
-  - [Animal Shelter Express Mongoose](https://github.com/ATL-WDI-Exercises/animal-shelter-express-mongoose)
+
+### Rendering with EJS
 
 * [Express Rendering with EJS](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-views-lesson)
 * [Node Express Views Lab](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-views-lab)
 
-* [Express & Mongoose CodeAlong](https://github.com/ATL-WDI-Exercises/mean_todo_app)
+### Mongoose
+
+#### Intro to Mongoose
+
+* [Mongoose](https://github.com/ATL-WDI-Curriculum/mongoose)
+* [Express Mongoose Modelling](https://github.com/ATL-WDI-Curriculum/express-mongoose-modelling)
+* [Mongoose Intro](https://github.com/ga-wdi-lessons/mongoose-intro)
+* Mongoose Lab
+  - [Express Node Mongoose Lab](https://github.com/ATL-WDI-Exercises/express-node-mongoose-lab)
+  - [Animal Shelter Express Mongoose](https://github.com/ATL-WDI-Exercises/animal-shelter-express-mongoose)
 * Mongoose and Async DB I/O
   - Async DB I/O with callbacks and promises.
   - How to do sequential operations
   - How to do concurrent operations
 
-* Mongoose Associations
-* Mongoose Associations Lab
+#### Mongoose Associations
+* Lesson
+* Lab
+
+### Express and Mongoose Code Along
+
+* [Express & Mongoose CodeAlong](https://github.com/ATL-WDI-Exercises/mean_todo_app)
+
+### Security with Express
 
 * [Security with Express using Passport](https://github.com/ATL-WDI-Curriculum/express-security-with-passport)
 
-* AJAX with jQuery and Express
-  - [ajax-and-express](https://github.com/ATL-WDI-Curriculum/ajax-and-express)
-  - [YouTube Video](https://www.youtube.com/watch?v=dIdrhawUe6k)
-  - [wdi_4_servers_clients_and_ajax](https://github.com/ga-wdi-boston/wdi_4_servers_clients_and_ajax)
-  - [http_request_response.png](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.png)
-  - [http_request_response.jpeg](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.jpeg)
-  - [jQuery_ajax_again](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax_again.md)
-  - [jQuery_ajax](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax.md)
-  - [ajax-weather](https://github.com/ga-chicago/ajax-weather)
+### AJAX with jQuery and Express
+
+* [ajax-and-express](https://github.com/ATL-WDI-Curriculum/ajax-and-express)
+* [YouTube Video](https://www.youtube.com/watch?v=dIdrhawUe6k)
+* [wdi_4_servers_clients_and_ajax](https://github.com/ga-wdi-boston/wdi_4_servers_clients_and_ajax)
+* [http_request_response.png](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.png)
+* [http_request_response.jpeg](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.jpeg)
+* [jQuery_ajax_again](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax_again.md)
+* [jQuery_ajax](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax.md)
+* [ajax-weather](https://github.com/ga-chicago/ajax-weather)
 * [jQuery/AJAX Exercise](https://github.com/GA-WDI/curriculum/tree/master/resources/02-front-end-intro/js-ajax-lab)
 
-* Error Handling and Debugging on the MEAN Stack
+### Error Handling and Debugging on the MEAN Stack
   - [express-error-handling](https://github.com/ATL-WDI-Curriculum/express-error-handling)
   - [express-debugging](https://github.com/ATL-WDI-Exercises/express-debugging)
+
+### Web Sockets
 
 * [Web Sockets](https://github.com/ATL-WDI-Curriculum/websockets)
 
@@ -245,7 +340,7 @@ bundle install
 
 ---
 
-## Unit 4 - Modern Client-Side Frameworks - AngularJS and React (the MEAN and MERN Stacks)
+## Unit 4 - Modern Client-Side Frameworks
 
 ### AngularJS
 
@@ -285,7 +380,6 @@ bundle install
   - Scheduling Algorithm
   - OOP Design
   - [JS Whiteboard Questions](https://github.com/ATL-WDI-Exercises/Javascript_whiteboard_questions)
-
 
 ### Project 4
 
