@@ -55,8 +55,6 @@ This file contains the main outline for our Atlanta WDI class. Different version
   - [CSS Selectors Basic Exercise](https://github.com/ATL-WDI-Exercises/css-selectors-basic-exercise)
   - [Fashion Blox](https://github.com/ATL-WDI-Exercises/fashion-blog)
 
----
-
 ### JavaScript
 
 * [JavaScript Expressions and Data Types](https://github.com/ATL-WDI-Curriculum/javascript-expressions)
@@ -86,13 +84,13 @@ This file contains the main outline for our Atlanta WDI class. Different version
   - [jquery](https://github.com/ATL-WDI-Curriculum/jquery)
   - [js-jquery-intermediate-lesson](https://github.com/GA-WDI/curriculum/tree/master/resources/02-front-end-intro/js-jquery-intermediate-lesson)
 
-## Project 1
+### Project 1
 
 [Project 1 Requirements](https://github.com/ATL-WDI-Exercises/project-one-requirements)
 
 ---
 
-## Ruby on Rails
+## Unit 2 - Ruby on Rails
 
 ### The Ruby Language
 
@@ -113,8 +111,6 @@ This file contains the main outline for our Atlanta WDI class. Different version
 * Inheritance
 * OOP ATM
 
----
-
 ### Relational Databases
 
 * [Intro to DB + SQL](https://github.com/ATL-WDI-Curriculum/databases-and-sql/blob/master/intro-to-rdbms.md)
@@ -126,8 +122,6 @@ This file contains the main outline for our Atlanta WDI class. Different version
   - [SQL Joins](https://github.com/ATL-WDI-Curriculum/databases-and-sql/blob/master/sql-joins.md)
   - [SQL Joins](https://github.com/ATL-WDI-Curriculum/sql-joins.git)
 * [Ruby SQL Labs](https://github.com/ATL-WDI-Curriculum/databases-and-sql/tree/master/ruby-labs)
-
----
 
 ### RAILS
 
@@ -187,11 +181,71 @@ bundle install
 
 [Rails Diagrams](https://github.com/ATL-WDI-Curriculum/rails-diagrams)
 
-## Project 2
+### Project 2
 
 [Project 2 Requirements](https://github.com/ATL-WDI-Exercises/project-two-requirements)
 
 ---
+
+## Unit 3 - NodeJS, Express, and MongoDB (the MEN Stack)
+
+* [MEAN Stack Intro](https://github.com/ATL-WDI-Curriculum/mean-stack-intro)
+* [Node Intro](https://github.com/ATL-WDI-Curriculum/node-intro)
+* NodeJS Modules with Lab
+* Intro to Express
+  - [Express](https://github.com/ATL-WDI-Curriculum/express)
+  - [Node Express Intro Lesson](https://github.com/ATL-WDI-Curriculum/node-express-intro-lesson)
+* [Express Routes Lab](https://github.com/ga-wdi-exercises/compliment-express/tree/solution)
+* [RESTful Routing with Express](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-routing-lab)
+* Intro to the Express Generator
+* [Intro to NoSQL and MongoDB](https://github.com/ATL-WDI-Curriculum/mongo-nosql-intro-lesson)
+* [MongoDB Lab](https://github.com/ATL-WDI-Exercises/mongo-pokemon)
+* Intro to Mongoose
+  - [Mongoose](https://github.com/ATL-WDI-Curriculum/mongoose)
+  - [Express Mongoose Modelling](https://github.com/ATL-WDI-Curriculum/express-mongoose-modelling)
+  - [Mongoose Intro](https://github.com/ga-wdi-lessons/mongoose-intro)
+* Mongoose Lab
+  - [Express Node Mongoose Lab](https://github.com/ATL-WDI-Exercises/express-node-mongoose-lab)
+  - [Animal Shelter Express Mongoose](https://github.com/ATL-WDI-Exercises/animal-shelter-express-mongoose)
+
+* [Express Rendering with EJS](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-views-lesson)
+* [Node Express Views Lab](https://github.com/GA-WDI/curriculum/tree/master/resources/04-server-applications/node-express-views-lab)
+
+* [Express & Mongoose CodeAlong](https://github.com/ATL-WDI-Exercises/mean_todo_app)
+* Mongoose and Async DB I/O
+  - Async DB I/O with callbacks and promises.
+  - How to do sequential operations
+  - How to do concurrent operations
+
+* Mongoose Associations
+* Mongoose Associations Lab
+
+* [Security with Express using Passport](https://github.com/ATL-WDI-Curriculum/express-security-with-passport)
+
+* AJAX with jQuery and Express
+  - [ajax-and-express](https://github.com/ATL-WDI-Curriculum/ajax-and-express)
+  - [YouTube Video](https://www.youtube.com/watch?v=dIdrhawUe6k)
+  - [wdi_4_servers_clients_and_ajax](https://github.com/ga-wdi-boston/wdi_4_servers_clients_and_ajax)
+  - [http_request_response.png](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.png)
+  - [http_request_response.jpeg](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/http_request_response.jpeg)
+  - [jQuery_ajax_again](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax_again.md)
+  - [jQuery_ajax](https://github.com/ga-students/WDI_Chi_Darth_Vader/blob/master/03_mastering_front_end/jQuery_ajax.md)
+  - [ajax-weather](https://github.com/ga-chicago/ajax-weather)
+* [jQuery/AJAX Exercise](https://github.com/GA-WDI/curriculum/tree/master/resources/02-front-end-intro/js-ajax-lab)
+
+* Error Handling and Debugging on the MEAN Stack
+  - [express-error-handling](https://github.com/ATL-WDI-Curriculum/express-error-handling)
+  - [express-debugging](https://github.com/ATL-WDI-Exercises/express-debugging)
+
+* [Web Sockets](https://github.com/ATL-WDI-Curriculum/websockets)
+
+### Project 3
+
+[Project 3 Requirements](https://github.com/ATL-WDI-Exercises/project-three-requirements)
+
+---
+
+## Unit 4 - Modern Client-Side Frameworks - AngularJS and React (the MEAN and MERN Stacks)
 
 ### AngularJS
 
@@ -231,3 +285,10 @@ bundle install
   - Scheduling Algorithm
   - OOP Design
   - [JS Whiteboard Questions](https://github.com/ATL-WDI-Exercises/Javascript_whiteboard_questions)
+
+
+### Project 4
+
+[Project 4 Requirements](https://github.com/ATL-WDI-Exercises/project-four-requirements)
+
+---
