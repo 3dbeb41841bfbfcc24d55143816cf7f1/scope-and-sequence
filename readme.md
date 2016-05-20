@@ -32,7 +32,7 @@ This file contains the main outline for our Atlanta WDI class. Different version
       * [Rails as a RESTful API](#rails-as-a-restful-api)
       * [Rails Diagrams](#rails-diagrams)
     * [Project 2](#project-2)
-  * [Unit 3 - NodeJS, Express, and MongoDB (the MEN Stack)](#unit-3---nodejs-express-and-mongodb-(the-men-stack))
+  * [Unit 3 - NodeJS, Express, and MongoDB (the MEN Stack)](#unit-3---nodejs-express-and-mongodb-the-men-stack)
     * [Intro to the MEAN Stack](#intro-to-the-mean-stack)
     * [Intro to NodeJS](#intro-to-nodejs)
     * [Intro to Express](#intro-to-express)
