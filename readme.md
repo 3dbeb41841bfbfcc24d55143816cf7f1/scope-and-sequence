@@ -50,6 +50,7 @@ This file contains the main outline for our Atlanta WDI class. Different version
     * [Project 3](#project-3)
   * [Unit 4 - Modern Client-Side Frameworks](#unit-4---modern-client-side-frameworks)
     * [AngularJS](#angularjs)
+      * [Angular Codepens](#angular-codepens)
     * [Unit Testing](#unit-testing)
     * [Technical Interviewing](#technical-interviewing)
     * [Project 4](#project-4)
@@ -361,6 +362,10 @@ bundle install
   - [Exercises Repo](https://github.com/ATL-WDI-Exercises/angular-camping-store-code-along)
   - [Dr. Mike Repo](https://github.com/drmikeh/ga_camping_store_angular)
   - [Dr. Mike MEAN Stack Repo](https://github.com/drmikeh/ga-camping-store)
+
+#### Angular Codepens
+
+[List of Angular Codepens](angular-codepens.md)
 
 ---
 
