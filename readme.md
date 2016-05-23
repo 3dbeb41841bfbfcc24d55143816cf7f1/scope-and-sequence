@@ -351,7 +351,7 @@ bundle install
 ### AngularJS
 
 #### Intro to AngularJS
-* [Intro](https://github.com/ATL-WDI-Curriculum/angular-intro)
+* [Angular Intro](https://github.com/ATL-WDI-Curriculum/angular-intro)
 * [Calculator Lab](https://github.com/ATL-WDI-Curriculum/angular-calculator-lab)
 * [Services and Factories](https://github.com/ATL-WDI-Curriculum/angular-services-and-factories)
 * [Forms and Form Validation](https://github.com/ATL-WDI-Curriculum/angular-forms)
