@@ -50,6 +50,11 @@ This file contains the main outline for our Atlanta WDI class. Different version
     * [Project 3](#project-3)
   * [Unit 4 - Modern Client-Side Frameworks](#unit-4---modern-client-side-frameworks)
     * [AngularJS](#angularjs)
+      * [Intro to AngularJS](#intro-to-angularjs)
+      * [Angular and D3](#angular-and-d3)
+      * [The Yeoman Angular Generator](#the-yeoman-angular-generator)
+      * [Routing with UI Router](#routing-with-ui-router)
+      * [Camping Store Code Alongs](#camping-store-code-alongs)
       * [Angular Codepens](#angular-codepens)
     * [Unit Testing](#unit-testing)
     * [Technical Interviewing](#technical-interviewing)
@@ -345,19 +350,27 @@ bundle install
 
 ### AngularJS
 
+#### Intro to AngularJS
 * [Intro](https://github.com/ATL-WDI-Curriculum/angular-intro)
 * [Calculator Lab](https://github.com/ATL-WDI-Curriculum/angular-calculator-lab)
 * [Services and Factories](https://github.com/ATL-WDI-Curriculum/angular-services-and-factories)
 * [Forms and Form Validation](https://github.com/ATL-WDI-Curriculum/angular-forms)
 * [Angular Animations](https://github.com/ATL-WDI-Curriculum/angular-animation)
-* Angular and D3
+
+#### Angular and D3
   - [ATL Lesson](https://github.com/ATL-WDI-Curriculum/d3)
   - [DC Lesson](https://github.com/ga-wdi-lessons/d3-intro)
 * [AJAX with $http and Promises](https://github.com/ATL-WDI-Curriculum/angular-http)
-* Intro. to Yeoman Angular Generator
-* [Basic Routing with UI Router]((https://github.com/ATL-WDI-Curriculum/angular-ui-router)
-* [Advanced Routing with UI Router](https://github.com/ATL-WDI-Exercises/angular-music-browser)
-* Camping Store Code Along
+
+#### The Yeoman Angular Generator
+
+#### Routing with UI Router
+* [Basic Routing with UI Router](https://github.com/ATL-WDI-Curriculum/angular-ui-router)
+* Advanced Routing with UI Router
+  - [Angular Music Browser](https://github.com/ATL-WDI-Exercises/angular-music-browser)
+  - [Colors](/Users/drmikeh/ga/wdi/projects/angular/ui-router/colors)
+
+#### Camping Store Code Alongs
   - [Curriculum Repo](https://github.com/ATL-WDI-Curriculum/yeoman-angular-ga-camping-store)
   - [Exercises Repo](https://github.com/ATL-WDI-Exercises/angular-camping-store-code-along)
   - [Dr. Mike Repo](https://github.com/drmikeh/ga_camping_store_angular)
